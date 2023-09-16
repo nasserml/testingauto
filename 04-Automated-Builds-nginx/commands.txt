@@ -1,0 +1,3 @@
+docker run -it --rm -d -p 8000:80 --name testautomation nginx
+docker build -t testauto:v1 .
+ docker run -d -p 80:80 testauto:v1
